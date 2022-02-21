@@ -1,0 +1,41 @@
+body {
+  background-color: lightblue;
+
+}
+h1, h2, h3 {
+  text-align: center;
+}
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: lightgreen;
+  box-shadow: 10px 10px;
+}
+div {
+  width: 90%;
+  margin: auto;
+}
+.itembox {
+  border: 2px solid blue;
+  border-radius: 25px;
+  box-shadow: 5px 5px;
+  background-color: lightyellow;
+  color: darkblue;
+  padding: 30px;  
+}
+.favorite {
+  border: 3px dashed purple;
+  border-radius: 25px;
+  box-shadow: 5px 5px;
+  background-color: lightcoral;
+  color: darkgreen;
+  padding: 30px;  
+}
+ul, ol{
+  background-color: peachpuff;
+  list-style-type: square;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 0.2em;
+}
