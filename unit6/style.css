@@ -1,0 +1,24 @@
+.photo
+{
+  height: 300px;
+}
+main{
+  background-color: yellowgreen;
+  color: white;
+}
+body{
+  background-image: url("techphoto2.jpg");
+  background-size: cover;
+}
+#wrapper{width: 60%;
+        margin: auto;
+        margin-top: 30px
+        }
+ul{
+  list-style-image: url("banana.png");
+}
+.specialborder{
+ border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
