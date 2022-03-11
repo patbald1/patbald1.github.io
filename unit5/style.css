@@ -1,6 +1,5 @@
 body {
   background-color: lightblue;
-
 }
 h1, h2, h3 {
   text-align: center;
@@ -19,23 +18,39 @@ div {
   border: 2px solid blue;
   border-radius: 25px;
   box-shadow: 5px 5px;
-  background-color: lightyellow;
+  background-color: yellow;
   color: darkblue;
   padding: 30px;  
 }
 .favorite {
   border: 3px dashed purple;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 5px 5px;
-  background-color: lightcoral;
-  color: darkgreen;
+  background-color: lightpink;
+  color: darkblue;
   padding: 30px;  
 }
-ul, ol{
+ul ol {
   background-color: peachpuff;
   list-style-type: square;
 }
-nav ul li{
-  display: inline-block;
-  margin-right: 0.2em;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
+ nav li{
+  float: left;
+}
+nav li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: darkblue;
+}   
