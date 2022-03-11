@@ -17,6 +17,9 @@ body{
 ul{
   list-style-image: url("bitgear.png");
 }
+ul{
+  list-style-position: inside;
+}
 .specialborder{
  border: 10px solid transparent;
   padding: 20px;
