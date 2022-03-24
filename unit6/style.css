@@ -21,7 +21,7 @@ ul{
   list-style-position: inside;
 }
 .specialborder{
- border: 10px solid transparent;
+  border: 25px solid transparent;
   padding: 20px;
-  border-image: url("purpleborder.jpeg") 30 round;
+  border-image: url("purpleborder.jpeg") 30% round;
 }
