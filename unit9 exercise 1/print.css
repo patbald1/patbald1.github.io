@@ -1,0 +1,23 @@
+.news{
+  display: none;
+}
+img , ul {
+  display: none;
+}
+body{
+  font-size: 1.25em;
+  background-color: white;
+  color: black;
+}
+a{
+  color:black;
+}
+#sidebar{
+  display:none;
+}
+#footer{
+  display:none;
+}
+a:after {
+  content: " (" attr(href)")";
+}
